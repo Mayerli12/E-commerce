@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+body {
+  background-color: #F0EAD6;
+  font-family: 'Verdana', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #A9CCE3;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.titulo {
+  color: #1A3A6D;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 72px;
+  margin-top: 20px;
+}
+
+#favorito {
+  border: 1px solid #AAB7B8;
+  color: #D9CAB3;
+}
+
+.destacado {
+  font-weight: bold;
+  color: #D9CAB3;
+  text-align: right;
+}
+
+p {
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+header, nav, section, article, footer {
+  border: 1px solid #C0C0C0;
+  display: block;
+}
+
+header {
+  background-color: #001F3F;
+  padding: 20px 10px;
+  color: #fff;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #D9CAB3;
+  padding: 10px 5px;
+}
+
+.agrupar {
+  margin: auto;
+  width: 960px;
+}
+
+section {
+  margin: 20px;
+  width: 60%;
+  float: left;
+  background: #F5F5DC;
+  padding: 20px;
+}
+
+aside {
+  margin: 20px;
+  padding: 30px;
+  width: 200px;
+  border: 1px;
+  float: right;
+  background: #F5F5DC;
+  align-items: center;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #D9CAB3;
+  padding: 20px 10px;
+  text-align: center;
+  clear: both;
+}
+
+footer li {
+  list-style: none;
+  font: bold 14px 'Verdana', sans-serif;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a {
+  float: left;
+  color: #001F3F;
+  text-align: center;
+  padding: 12px;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #F5F5DC;
+  border: 1px solid #AAB7B8;
+  color: #001F3F;
+}
+
+nav a.active {
+  background-color: #001F3F;
+  border: 1px solid #C0C0C0;
+  color: #F5F5DC;
+}
+
+.imagen-tienda {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  max-width: 80%;
+  height: auto;
+}
+
+.imagen-productos {
+  display: block;
+  margin: 20px auto;
+  max-width: 60%;
+  height: auto;
+}
